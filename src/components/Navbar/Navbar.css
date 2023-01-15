@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    margin-top: -2rem;
+}
+.logo{
+    margin-top: 1.8rem;
+}
+.brand{
+    margin: auto;
+}
+.search{
+    margin-right: 13rem;
+    width:15rem;
+    font-size: 16px;
+    height:1.7rem;
+    margin-top: 1.8rem;
+    background-color: rgb(238, 234, 234);
+    border: none;
+}
+.login{
+    height:2rem;
+    width:4rem;
+    margin-top: 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+.signup{
+    margin-top: 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 5rem;
+}

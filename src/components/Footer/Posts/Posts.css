@@ -1,0 +1,8 @@
+.post-section{
+    border-top: 2px solid lightgrey;
+    /* height:100vh; */
+    margin: auto;
+    row-gap: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,64 @@
+.user-section{
+    /* background-color: rgb(5, 128, 252); */
+    display: flex;
+    margin-top: 3.5rem;
+    justify-content: space-around;
+}
+.left-part{
+    width:10vw;
+    margin-left: -1rem;
+}
+.right-part{
+    display: grid;
+    grid-template-columns: 15vw 9vw auto auto;
+    padding: 1.5rem;
+    width:35vw;
+    margin-left: -18rem;
+}
+.left-part>img{
+width:9rem;
+height:9rem;
+border-radius: 50%;
+padding: 1rem;
+}
+.name{
+    font-size: 20px;
+}
+.follow,.msg{
+    height:1.5rem;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    width:5rem;
+    font-weight: 600;
+    background-color: rgb(238, 234, 234);
+}
+.msg{
+    font-weight: 600;
+    font-size: 18px;
+}
+.follow:hover , .msg:hover{
+    background-color: rgb(221, 218, 218);
+}
+.dots{
+    font-size: 40px;
+    margin-left: 1rem;
+    margin-top: -1.4rem;
+}
+.dots:hover{
+    cursor: pointer;
+}
+.posts, .followers, .following{
+    font-size: 15px;
+}
+
+.posts>span, .followers>span, .following>span{
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 0.2rem;
+}
+
+.other-info{
+ display: grid;
+ grid-template-columns: auto;
+}
