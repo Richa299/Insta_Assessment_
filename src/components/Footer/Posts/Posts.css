@@ -1,8 +1,24 @@
 .post-section{
-    border-top: 2px solid lightgrey;
     /* height:100vh; */
     margin: auto;
     row-gap: 1.5rem;
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.post-container{
+    border-top: 2px solid lightgrey;
+
+}
+.post-option{
+text-align: center;
+font-size: 15px;
+font-weight: 500;
+flex-direction: row;
+}
+.post-option button{
+    padding:1rem 2.7rem 1rem 0rem;
+    border: none;
+}
+
+
+

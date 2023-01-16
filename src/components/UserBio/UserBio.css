@@ -1,5 +1,4 @@
 .user-section{
-    /* background-color: rgb(5, 128, 252); */
     display: flex;
     margin-top: 3.5rem;
     justify-content: space-around;
@@ -10,7 +9,7 @@
 }
 .right-part{
     display: grid;
-    grid-template-columns: 15vw 9vw auto auto;
+    grid-template-columns: 12vw 9vw auto auto;
     padding: 1.5rem;
     width:35vw;
     margin-left: -18rem;
@@ -22,7 +21,7 @@ border-radius: 50%;
 padding: 1rem;
 }
 .name{
-    font-size: 20px;
+    font-size: 18px;
 }
 .follow,.msg{
     height:1.5rem;
@@ -57,8 +56,18 @@ padding: 1rem;
     font-weight: 700;
     margin-right: 0.2rem;
 }
+.posts:hover, .followers:hover, .following:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
 
 .other-info{
  display: grid;
  grid-template-columns: auto;
+}
+.username, .website{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 14px;
+    font-weight: 400;
 }

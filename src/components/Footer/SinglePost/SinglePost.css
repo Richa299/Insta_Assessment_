@@ -1,7 +1,13 @@
 .posts-details{
     margin: auto;
+    
 }
 .posts-details img{
     width:280px;
     height:280px;
+}
+.post-image:hover{
+    opacity: 0.5;
+    /* background-image: linear-gradient(grey, black); */
+    /* background-color: black; */
 }
