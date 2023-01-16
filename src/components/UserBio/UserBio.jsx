@@ -30,10 +30,8 @@ function UserBio(){
            <p className="followers"><span>231M</span>followers</p>
            <p className="following"><span>231</span>following</p>
            <p></p>
-           <p><span>{user.username}</span>
-           <span>{user.website}</span>
-           {/* <span>{user.company.name}</span> */}
-           </p>
+           <span className="username">{user.username}</span>
+           <span className="website"><a href="#">{user.website}</a></span>
            </div>
         </Container>
     )
